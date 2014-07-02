@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30165A3719645F2B001459AA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30165A3619645F2B001459AA /* main.swift */; };
+		30165A3919645F2B001459AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30165A3819645F2B001459AA /* AppDelegate.swift */; };
+		30165A3B19645F2B001459AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30165A3A19645F2B001459AA /* Images.xcassets */; };
+		30165A3E19645F2B001459AA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30165A3C19645F2B001459AA /* MainMenu.xib */; };
+		30165A4A19645F2B001459AA /* PerceptualHashAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30165A4919645F2B001459AA /* PerceptualHashAlgorithmTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30165A4419645F2B001459AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30165A2919645F2B001459AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30165A3019645F2B001459AA;
+			remoteInfo = PerceptualHashAlgorithm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30165A3119645F2B001459AA /* PerceptualHashAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerceptualHashAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30165A3519645F2B001459AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30165A3619645F2B001459AA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		30165A3819645F2B001459AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30165A3A19645F2B001459AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30165A3D19645F2B001459AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		30165A4319645F2B001459AA /* PerceptualHashAlgorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerceptualHashAlgorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30165A4819645F2B001459AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30165A4919645F2B001459AA /* PerceptualHashAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerceptualHashAlgorithmTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30165A2E19645F2B001459AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30165A4019645F2B001459AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30165A2819645F2B001459AA = {
+			isa = PBXGroup;
+			children = (
+				30165A3319645F2B001459AA /* PerceptualHashAlgorithm */,
+				30165A4619645F2B001459AA /* PerceptualHashAlgorithmTests */,
+				30165A3219645F2B001459AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30165A3219645F2B001459AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30165A3119645F2B001459AA /* PerceptualHashAlgorithm.app */,
+				30165A4319645F2B001459AA /* PerceptualHashAlgorithmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30165A3319645F2B001459AA /* PerceptualHashAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				30165A3819645F2B001459AA /* AppDelegate.swift */,
+				30165A3A19645F2B001459AA /* Images.xcassets */,
+				30165A3C19645F2B001459AA /* MainMenu.xib */,
+				30165A3419645F2B001459AA /* Supporting Files */,
+			);
+			path = PerceptualHashAlgorithm;
+			sourceTree = "<group>";
+		};
+		30165A3419645F2B001459AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30165A3519645F2B001459AA /* Info.plist */,
+				30165A3619645F2B001459AA /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30165A4619645F2B001459AA /* PerceptualHashAlgorithmTests */ = {
+			isa = PBXGroup;
+			children = (
+				30165A4919645F2B001459AA /* PerceptualHashAlgorithmTests.swift */,
+				30165A4719645F2B001459AA /* Supporting Files */,
+			);
+			path = PerceptualHashAlgorithmTests;
+			sourceTree = "<group>";
+		};
+		30165A4719645F2B001459AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30165A4819645F2B001459AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30165A3019645F2B001459AA /* PerceptualHashAlgorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30165A4D19645F2B001459AA /* Build configuration list for PBXNativeTarget "PerceptualHashAlgorithm" */;
+			buildPhases = (
+				30165A2D19645F2B001459AA /* Sources */,
+				30165A2E19645F2B001459AA /* Frameworks */,
+				30165A2F19645F2B001459AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerceptualHashAlgorithm;
+			productName = PerceptualHashAlgorithm;
+			productReference = 30165A3119645F2B001459AA /* PerceptualHashAlgorithm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30165A4219645F2B001459AA /* PerceptualHashAlgorithmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30165A5019645F2B001459AA /* Build configuration list for PBXNativeTarget "PerceptualHashAlgorithmTests" */;
+			buildPhases = (
+				30165A3F19645F2B001459AA /* Sources */,
+				30165A4019645F2B001459AA /* Frameworks */,
+				30165A4119645F2B001459AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30165A4519645F2B001459AA /* PBXTargetDependency */,
+			);
+			name = PerceptualHashAlgorithmTests;
+			productName = PerceptualHashAlgorithmTests;
+			productReference = 30165A4319645F2B001459AA /* PerceptualHashAlgorithmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30165A2919645F2B001459AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = closure;
+				TargetAttributes = {
+					30165A3019645F2B001459AA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					30165A4219645F2B001459AA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 30165A3019645F2B001459AA;
+					};
+				};
+			};
+			buildConfigurationList = 30165A2C19645F2B001459AA /* Build configuration list for PBXProject "PerceptualHashAlgorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30165A2819645F2B001459AA;
+			productRefGroup = 30165A3219645F2B001459AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30165A3019645F2B001459AA /* PerceptualHashAlgorithm */,
+				30165A4219645F2B001459AA /* PerceptualHashAlgorithmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30165A2F19645F2B001459AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30165A3B19645F2B001459AA /* Images.xcassets in Resources */,
+				30165A3E19645F2B001459AA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30165A4119645F2B001459AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30165A2D19645F2B001459AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30165A3919645F2B001459AA /* AppDelegate.swift in Sources */,
+				30165A3719645F2B001459AA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30165A3F19645F2B001459AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30165A4A19645F2B001459AA /* PerceptualHashAlgorithmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30165A4519645F2B001459AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30165A3019645F2B001459AA /* PerceptualHashAlgorithm */;
+			targetProxy = 30165A4419645F2B001459AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30165A3C19645F2B001459AA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30165A3D19645F2B001459AA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30165A4B19645F2B001459AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30165A4C19645F2B001459AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30165A4E19645F2B001459AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PerceptualHashAlgorithm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30165A4F19645F2B001459AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PerceptualHashAlgorithm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30165A5119645F2B001459AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PerceptualHashAlgorithm.app/Contents/MacOS/PerceptualHashAlgorithm";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PerceptualHashAlgorithmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		30165A5219645F2B001459AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PerceptualHashAlgorithm.app/Contents/MacOS/PerceptualHashAlgorithm";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PerceptualHashAlgorithmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30165A2C19645F2B001459AA /* Build configuration list for PBXProject "PerceptualHashAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30165A4B19645F2B001459AA /* Debug */,
+				30165A4C19645F2B001459AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30165A4D19645F2B001459AA /* Build configuration list for PBXNativeTarget "PerceptualHashAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30165A4E19645F2B001459AA /* Debug */,
+				30165A4F19645F2B001459AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30165A5019645F2B001459AA /* Build configuration list for PBXNativeTarget "PerceptualHashAlgorithmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30165A5119645F2B001459AA /* Debug */,
+				30165A5219645F2B001459AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30165A2919645F2B001459AA /* Project object */;
+}
