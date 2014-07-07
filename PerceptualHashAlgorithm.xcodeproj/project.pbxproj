@@ -12,6 +12,9 @@
 		30165A3B19645F2B001459AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30165A3A19645F2B001459AA /* Images.xcassets */; };
 		30165A3E19645F2B001459AA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30165A3C19645F2B001459AA /* MainMenu.xib */; };
 		30165A4A19645F2B001459AA /* PerceptualHashAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30165A4919645F2B001459AA /* PerceptualHashAlgorithmTests.swift */; };
+		308C1A7E1965329C00FE209E /* PerceptualHashAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C1A7D1965329C00FE209E /* PerceptualHashAlgorithm.swift */; };
+		308C1A801965365900FE209E /* TargetGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C1A7F1965365900FE209E /* TargetGen.swift */; };
+		30B7447019652DDB002A64E3 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7446F19652DDB002A64E3 /* NSImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 		30165A4319645F2B001459AA /* PerceptualHashAlgorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerceptualHashAlgorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30165A4819645F2B001459AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30165A4919645F2B001459AA /* PerceptualHashAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerceptualHashAlgorithmTests.swift; sourceTree = "<group>"; };
+		3023F7621965241A00799D63 /* PerceptualHashAlgorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PerceptualHashAlgorithm-Bridging-Header.h"; sourceTree = "<group>"; };
+		308C1A7D1965329C00FE209E /* PerceptualHashAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerceptualHashAlgorithm.swift; sourceTree = "<group>"; };
+		308C1A7F1965365900FE209E /* TargetGen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetGen.swift; sourceTree = "<group>"; };
+		30B7446F19652DDB002A64E3 /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +82,14 @@
 		30165A3319645F2B001459AA /* PerceptualHashAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				30B7446F19652DDB002A64E3 /* NSImage.swift */,
+				308C1A7D1965329C00FE209E /* PerceptualHashAlgorithm.swift */,
+				308C1A7F1965365900FE209E /* TargetGen.swift */,
 				30165A3819645F2B001459AA /* AppDelegate.swift */,
 				30165A3A19645F2B001459AA /* Images.xcassets */,
 				30165A3C19645F2B001459AA /* MainMenu.xib */,
 				30165A3419645F2B001459AA /* Supporting Files */,
+				3023F7621965241A00799D63 /* PerceptualHashAlgorithm-Bridging-Header.h */,
 			);
 			path = PerceptualHashAlgorithm;
 			sourceTree = "<group>";
@@ -208,8 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B7447019652DDB002A64E3 /* NSImage.swift in Sources */,
 				30165A3919645F2B001459AA /* AppDelegate.swift in Sources */,
 				30165A3719645F2B001459AA /* main.swift in Sources */,
+				308C1A7E1965329C00FE209E /* PerceptualHashAlgorithm.swift in Sources */,
+				308C1A801965365900FE209E /* TargetGen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,10 +338,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PerceptualHashAlgorithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PerceptualHashAlgorithm/PerceptualHashAlgorithm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -335,10 +352,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PerceptualHashAlgorithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PerceptualHashAlgorithm/PerceptualHashAlgorithm-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -399,6 +418,7 @@
 				30165A4F19645F2B001459AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30165A5019645F2B001459AA /* Build configuration list for PBXNativeTarget "PerceptualHashAlgorithmTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +427,7 @@
 				30165A5219645F2B001459AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
